@@ -62,7 +62,7 @@ def upgrade_config(config):
 
 def show_config():
     with open(CONFIG_FILE_PATH) as f:
-        print "# ", CONFIG_FILE_PATH
+        print("# ", CONFIG_FILE_PATH)
         sys.stdout.write(f.read())
 
 
